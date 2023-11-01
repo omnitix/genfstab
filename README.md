@@ -1,6 +1,7 @@
 # genfstab
 
 fstab generator for UNIX-like OS written in [Rust](https://rust-lang.org).
+
 get help:
 ```
 genfstab --help
