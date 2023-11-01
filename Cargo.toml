@@ -1,0 +1,17 @@
+[package]
+name = "genfstab"
+version = "1.0.0"
+edition = "2021"
+
+[lib]
+name = "genfstab"
+path = "src/lib.rs"
+
+[[bin]]
+name = "genfstab"
+path = "src/main.rs"
+
+[profile.release]
+strip = true
+
+[dependencies]
